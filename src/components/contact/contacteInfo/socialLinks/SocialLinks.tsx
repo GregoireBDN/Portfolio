@@ -8,7 +8,7 @@ const SocialLinks = () => {
       label: "GitHub",
     },
     {
-      href: "https://linkedin.com/in/gregoire-bodin",
+      href: "https://www.linkedin.com/in/gr%C3%A9goire-bodin-a4a143270/",
       icon: "linkedin" as const,
       label: "LinkedIn",
     },
