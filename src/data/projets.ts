@@ -36,7 +36,7 @@ export const projets: ProjetType[] = [
       "Auth0",
       "Node.js",
     ],
-    github: "https://github.com/GregoireBDN/bingolive",
+    github: "https://github.com/jasonv268/BingoLive",
     status: "en_cours",
   },
   {
@@ -52,7 +52,7 @@ export const projets: ProjetType[] = [
       "Persistance des données via fichiers JSON",
     ],
     technologies: ["Java", "JavaFX", "JUnit", "Maven"],
-    github: "https://github.com/GregoireBDN/cartaylor",
+    github: "https://github.com/GregoireBDN/Car-Taylor",
     collaboration: "Projet réalisé en binôme avec Léo Bernard-Bodier",
     encadrement: "Encadré par M. Noel Plouzeau",
     status: "terminé",
