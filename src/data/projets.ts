@@ -8,7 +8,7 @@ export type ProjetType = {
   description: string;
   fonctionnalites: string[];
   technologies: string[];
-  github: string;
+  github?: string;
   demo?: string;
   status: ProjetStatus;
 };
@@ -36,7 +36,6 @@ export const projets: ProjetType[] = [
       "Auth0",
       "Node.js",
     ],
-    github: "https://github.com/jasonv268/BingoLive",
     status: "en_cours",
   },
   {
