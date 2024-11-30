@@ -6,10 +6,16 @@ interface PageHeaderProps {
 
 const PageHeader = ({ title, subtitle, description }: PageHeaderProps) => {
   return (
-    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mb-12">
-      <h1 className="text-4xl font-bold text-gray-800 mb-3">{title}</h1>
-      {subtitle && <h2 className="text-2xl text-gray-700 mb-4">{subtitle}</h2>}
-      <p className="text-gray-600 text-lg max-w-2xl">{description}</p>
+    <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-card p-card mb-12">
+      <h1 className="text-4xl font-bold text-gray-800 mb-3 font-sans">
+        {title}
+      </h1>
+
+      {subtitle && (
+        <h2 className="text-2xl text-gray-700 mb-4 font-sans">{subtitle}</h2>
+      )}
+
+      <p className="text-lg text-gray-600 max-w-2xl font-sans">{description}</p>
     </div>
   );
 };

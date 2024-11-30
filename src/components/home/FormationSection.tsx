@@ -12,14 +12,12 @@ const FormationSection = () => {
     <section className="mb-12">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">Formation</h2>
 
-      {/* Formations académiques */}
       <div className="space-y-6 mb-12">
         {formationsAcademiques.map((formation, index) => (
           <AcademicFormationCard key={index} formation={formation} />
         ))}
       </div>
 
-      {/* Formations en ligne */}
       <div>
         <h3 className="text-xl font-medium text-gray-700 mb-4">
           Formations complémentaires

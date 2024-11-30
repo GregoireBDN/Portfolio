@@ -17,7 +17,8 @@ const SocialLink = ({ href, icon, label }: SocialLinkProps) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors duration-200"
+      className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 
+        transition-colors duration-200"
       aria-label={label}
     >
       <svg

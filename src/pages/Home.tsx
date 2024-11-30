@@ -6,7 +6,7 @@ import CompetencesSection from "../components/home/CompetencesSection";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 font-sans">
       <PageHeader
         title="Grégoire Bodin"
         subtitle="Étudiant en Ingénierie Logicielle"

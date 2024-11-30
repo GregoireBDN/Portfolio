@@ -6,7 +6,7 @@ interface AcademicFormationCardProps {
 
 const AcademicFormationCard = ({ formation }: AcademicFormationCardProps) => {
   return (
-    <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-6 border-l-4 border-blue-500">
+    <div className="bg-white rounded-card shadow-card hover:shadow-card-hover transition-all duration-300 p-card border-l-4 border-primary-500">
       <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
         <div className="flex-grow">
           <h3 className="font-bold text-2xl text-blue-600 mb-3">

@@ -14,7 +14,8 @@ const ExperienceTechnologies = ({
         {technologies.map((tech, idx) => (
           <span
             key={idx}
-            className="px-4 py-2 bg-gray-50 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors duration-200"
+            className="px-4 py-2 bg-primary-50 text-primary-500 rounded-lg 
+              text-sm font-medium hover:bg-primary-100 transition-colors duration-200"
           >
             {tech}
           </span>

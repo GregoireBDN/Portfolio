@@ -5,7 +5,7 @@ import { experiences } from "../data/experiences";
 
 const Stages = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 font-sans">
       <PageHeader
         title="Expériences Professionnelles"
         description="Découvrez mon parcours professionnel et mes expériences en tant que développeur. Actuellement en Master 1 à l'ISTIC, je suis à la recherche de nouvelles opportunités pour continuer à développer mes compétences."

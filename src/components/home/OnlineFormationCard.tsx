@@ -1,4 +1,5 @@
 import { FormationType } from "../../data/formations";
+import Badge from "../common/Badge";
 
 interface OnlineFormationCardProps {
   formation: FormationType;
@@ -6,7 +7,10 @@ interface OnlineFormationCardProps {
 
 const OnlineFormationCard = ({ formation }: OnlineFormationCardProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-sm hover:shadow transition-all duration-300 p-4 border border-gray-100">
+    <div
+      className="bg-white rounded-card shadow-card hover:shadow-card-hover 
+      transition-all duration-300 p-card border border-gray-100"
+    >
       <div className="flex justify-between items-start">
         <div>
           <h3 className="font-medium text-lg text-gray-800">
@@ -16,9 +20,9 @@ const OnlineFormationCard = ({ formation }: OnlineFormationCardProps) => {
             {formation.etablissement} • {formation.periode}
           </p>
         </div>
-        <span className="bg-indigo-50 text-indigo-600 px-2 py-1 rounded-full text-xs font-medium">
-          {formation.plateforme}
-        </span>
+        {formation.plateforme && (
+          <Badge text={formation.plateforme} variant="primary" />
+        )}
       </div>
 
       {formation.certificat && (
@@ -27,7 +31,7 @@ const OnlineFormationCard = ({ formation }: OnlineFormationCardProps) => {
             href={formation.certificat}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-700"
+            className="inline-flex items-center text-sm text-primary-500 hover:text-primary-600"
           >
             <svg
               className="w-4 h-4 mr-1"

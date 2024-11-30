@@ -8,7 +8,7 @@ const ExperienceContexte = ({ contexte }: ExperienceContexteProps) => {
   return (
     <div>
       <h4 className="text-lg font-semibold text-gray-800 mb-4">Contexte</h4>
-      <div className="bg-gray-50 rounded-lg p-6">
+      <div className="bg-gray-50 rounded-card p-card">
         {contexte.map((section, idx) => (
           <div key={idx} className="mb-4 last:mb-0">
             {section.titre && (

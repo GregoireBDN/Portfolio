@@ -12,7 +12,8 @@ const TechnologiesProjet = ({ technologies }: TechnologiesProjetProps) => {
         {technologies.map((tech, idx) => (
           <span
             key={idx}
-            className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium"
+            className="px-3 py-1 bg-primary-50 text-primary-500 
+              rounded-full text-sm font-medium"
           >
             {tech}
           </span>

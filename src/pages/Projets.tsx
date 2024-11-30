@@ -1,11 +1,11 @@
-import PageHeader from "../components/common/PageHeader";
 import ProjetCard from "../components/projets/ProjetCard";
 import ContactCTA from "../components/common/ContactCTA";
 import { projets } from "../data/projets";
+import PageHeader from "../components/common/PageHeader";
 
 const Projets = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 font-sans">
       <PageHeader
         title="Mes Projets"
         description="Découvrez les différents projets sur lesquels j'ai travaillé, tant dans un cadre académique que personnel. Chaque projet représente une opportunité d'apprentissage et de perfectionnement de mes compétences."

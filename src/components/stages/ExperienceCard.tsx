@@ -10,9 +10,9 @@ interface ExperienceCardProps {
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
-    <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
-      <div className="border-l-4 border-blue-500">
-        <div className="p-8">
+    <div className="bg-white rounded-card shadow-card hover:shadow-card-hover transition-shadow duration-300 overflow-hidden">
+      <div className="border-l-4 border-primary-500">
+        <div className="p-card">
           <ExperienceHeader
             titre={experience.titre}
             entreprise={experience.entreprise}

@@ -15,7 +15,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 font-sans">
       {socialLinks.map((link, index) => (
         <SocialLink key={index} {...link} />
       ))}

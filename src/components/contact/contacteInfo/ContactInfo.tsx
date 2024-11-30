@@ -5,7 +5,7 @@ import { EmailIcon, LocationIcon } from "./personalInfos/ContactIcons";
 
 const ContactInfo = () => {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 font-sans">
       <InfoCard title="Informations de contact">
         <div className="space-y-4">
           <ContactMethod

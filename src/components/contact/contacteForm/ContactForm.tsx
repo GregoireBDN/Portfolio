@@ -49,8 +49,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md p-6">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+    <div className="bg-white rounded-card shadow-card p-card">
+      <h2 className="text-2xl font-semibold text-gray-800 mb-6 font-sans">
         Envoyez-moi un message
       </h2>
       <form className="space-y-6" onSubmit={handleSubmit}>

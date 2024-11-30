@@ -10,12 +10,15 @@ const ContactCTA = ({
   buttonText = "Me contacter",
 }: ContactCTAProps) => {
   return (
-    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 text-center">
-      <p className="text-gray-700 text-lg font-medium mb-4">{title}</p>
-      {description && <p className="text-gray-600 mb-6">{description}</p>}
+    <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-card p-card text-center">
+      <p className="text-lg font-medium text-gray-700 mb-4">{title}</p>
+      {description && (
+        <p className="text-base text-gray-600 mb-6">{description}</p>
+      )}
       <a
         href="/contact"
-        className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
+        className="inline-flex items-center px-6 py-3 bg-primary-500 text-white rounded-lg
+          hover:bg-primary-600 transition-colors duration-200 font-medium"
       >
         {buttonText}
       </a>

@@ -16,7 +16,7 @@ const CaracteristiquesProjet = ({ projet }: CaracteristiquesProjetProps) => {
         <ul className="space-y-2">
           {projet.fonctionnalites.map((feature, idx) => (
             <li key={idx} className="flex items-start">
-              <span className="text-blue-500 mr-2">→</span>
+              <span className="text-primary-500 mr-2">→</span>
               <span className="text-gray-600">{feature}</span>
             </li>
           ))}

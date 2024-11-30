@@ -4,7 +4,7 @@ import ContactInfo from "../components/contact/contacteInfo/ContactInfo";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 font-sans">
       <PageHeader
         title="Contactez-moi"
         description="N'hésitez pas à me contacter pour toute opportunité professionnelle ou question."

@@ -2,23 +2,24 @@ import CaracteristiquesProjet from "./CaracteristiquesProjet";
 import TechnologiesProjet from "./TechnologiesProjet";
 import LinksProjet from "./LinksProjet";
 import { ProjetType } from "../../data/projets";
+import Badge from "../common/Badge";
 
 const ProjetCard = ({ projet }: { projet: ProjetType }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-      <div className="border-t-4 border-blue-500">
-        <div className="p-6">
+    <div
+      className="bg-white rounded-card shadow-card hover:shadow-card-hover 
+      transition-all duration-300 overflow-hidden"
+    >
+      <div className="border-t-4 border-primary-500">
+        <div className="p-card">
           <div className="flex justify-between items-start mb-2">
-            <h3 className="text-2xl font-bold text-blue-600">{projet.titre}</h3>
-            <span
-              className={`px-3 py-1 rounded-full text-sm font-medium ${
-                projet.status === "en_cours"
-                  ? "bg-yellow-100 text-yellow-800"
-                  : "bg-green-100 text-green-800"
-              }`}
-            >
-              {projet.status === "en_cours" ? "En cours" : "Terminé"}
-            </span>
+            <h3 className="text-2xl font-bold text-primary-500">
+              {projet.titre}
+            </h3>
+            <Badge
+              text={projet.status === "en_cours" ? "En cours" : "Terminé"}
+              variant={projet.status === "en_cours" ? "warning" : "success"}
+            />
           </div>
 
           <p className="text-gray-600 mb-2">{projet.contexte}</p>
@@ -29,7 +30,7 @@ const ProjetCard = ({ projet }: { projet: ProjetType }) => {
             <p className="text-sm text-gray-500 mb-4">{projet.encadrement}</p>
           )}
 
-          <div className="prose prose-blue mb-6">
+          <div className="prose prose-primary mb-6">
             <p className="text-gray-700">{projet.description}</p>
           </div>
 

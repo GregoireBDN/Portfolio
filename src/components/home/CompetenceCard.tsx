@@ -8,13 +8,13 @@ interface CompetenceCardProps {
 
 const CompetenceCard = ({ titre, items }: CompetenceCardProps) => {
   return (
-    <div className="bg-white p-6 rounded-xl shadow-md">
-      <h3 className="text-xl font-semibold text-blue-600 mb-4">{titre}</h3>
+    <div className="bg-white p-card rounded-card shadow-card">
+      <h3 className="text-xl font-semibold text-primary-500 mb-4">{titre}</h3>
       <ul className="space-y-4 text-gray-600">
         {items.map((item, index) => (
           <li key={index}>
             <div className="flex items-center">
-              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+              <span className="w-2 h-2 bg-primary-500 rounded-full mr-2"></span>
               {item.nom}
             </div>
             {item.sousItems && (

@@ -8,7 +8,7 @@ const ExperienceMissions = ({ missions }: ExperienceMissionsProps) => {
       <h4 className="text-lg font-semibold text-gray-800 mb-4">
         Missions et réalisations
       </h4>
-      <div className="bg-gray-50 rounded-lg p-6">
+      <div className="bg-gray-50 rounded-card p-card">
         <ul className="space-y-6">
           {missions.map((mission, idx) => (
             <li key={idx} className="space-y-3">
@@ -20,7 +20,7 @@ const ExperienceMissions = ({ missions }: ExperienceMissionsProps) => {
               <ul className="space-y-2">
                 {mission.contenu.map((item, itemIdx) => (
                   <li key={itemIdx} className="flex items-start">
-                    <span className="text-blue-500 mr-3 mt-1">•</span>
+                    <span className="text-primary-500 mr-3 mt-1">•</span>
                     <span className="text-gray-600">{item}</span>
                   </li>
                 ))}
