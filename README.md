@@ -44,9 +44,11 @@ Site web personnel mettant en avant mon parcours professionnel, mes projets et m
 - **🏠 Accueil**
 
   - Présentation générale
-  - Formation
-  - Expérience
-  - Compétences
+  - Formation académique
+  - Formation complémentaire
+  - Expérience professionnelle
+  - Compétences techniques
+  - Double Projet : Sport & Études
 
 - **💼 Stages**
 
@@ -90,6 +92,7 @@ src/
 - 📊 Présentation interactive des expériences
 - 🖼️ Galerie de projets dynamique
 - 📚 Sections Formation et Compétences détaillées
+- 🏆 Mise en valeur du double projet Sport & Études
 
 ## 📫 Contact
 

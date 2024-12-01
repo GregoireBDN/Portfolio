@@ -4,7 +4,7 @@ const ExperienceSection = () => {
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">
         Dernière Expérience
       </h2>
-      <div className="bg-white rounded-card shadow-card p-card border-l-4 border-primary-500">
+      <div className="bg-white rounded-card shadow-card hover:shadow-lg hover:scale-[1.01] transform transition-all duration-300 p-card border-l-4 border-primary-500">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
           <div>
             <h3 className="text-xl font-bold text-primary-500 mb-2">

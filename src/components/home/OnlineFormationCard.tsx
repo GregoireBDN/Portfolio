@@ -7,10 +7,7 @@ interface OnlineFormationCardProps {
 
 const OnlineFormationCard = ({ formation }: OnlineFormationCardProps) => {
   return (
-    <div
-      className="bg-white rounded-card shadow-card hover:shadow-card-hover 
-      transition-all duration-300 p-card border border-gray-100"
-    >
+    <div className="bg-white rounded-card shadow-card hover:shadow-lg hover:scale-[1.01] transform transition-all duration-300 p-card border border-gray-100">
       <div className="flex justify-between items-start">
         <div>
           <h3 className="font-medium text-lg text-gray-800">

@@ -20,7 +20,7 @@ const ContactCTA = ({
       <Link
         to="/contact"
         className="inline-flex items-center px-6 py-3 bg-primary-500 text-white rounded-lg
-          hover:bg-primary-600 transition-colors duration-200 font-medium"
+          hover:bg-primary-600 font-medium hover:shadow-lg hover:scale-[1.03] transform transition-all duration-300"
       >
         {buttonText}
       </Link>

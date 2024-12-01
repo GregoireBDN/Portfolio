@@ -8,7 +8,7 @@ interface CompetenceCardProps {
 
 const CompetenceCard = ({ titre, items }: CompetenceCardProps) => {
   return (
-    <div className="bg-white p-card rounded-card shadow-card">
+    <div className="bg-white p-card rounded-card shadow-card hover:shadow-lg hover:scale-[1.01] transform transition-all duration-300">
       <h3 className="text-xl font-semibold text-primary-500 mb-4">{titre}</h3>
       <ul className="space-y-4 text-gray-600">
         {items.map((item, index) => (
